@@ -1,8 +1,8 @@
 require 'greet.rb'
 
 RSpec.describe "greet method" do
-    it "puts hello 'name'" do
+    it "says hello to someone" do
         result = greet('Aamir')
-        expect(result).to eq 'Aamir'
+        expect(result).to eq ("Hello, Aamir!")
     end
 end
